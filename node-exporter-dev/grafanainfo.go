@@ -22,7 +22,7 @@ var (
         grafanaPassword = kingpin.Flag(
                 "grafana.password",
                 "Grafana controller password.",
-        ).Default("fity2013@").String()
+        ).Default("f13dfd").String()
 )
 
 type (
