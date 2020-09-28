@@ -18,7 +18,7 @@ import (
 var (
   Uri = flag.String("grafana.url","http://10.40.45.18:3000/","Grafana host's url address.")
   Username = flag.String("grafana.username","admin","Grafana service's account name")
-  Password = flag.String("grafana.password","fity2013@","Grafana service's account password")
+  Password = flag.String("grafana.password","fisdfdfds","Grafana service's account password")
   listenAddress = flag.String("grafana.listen.address",":8090","Grafana exporter listen address")
 )
 
