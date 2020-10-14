@@ -3,7 +3,7 @@ Node-exporter-dev
 
 ![](./node-exporter.png)
 
-# Main functions below
+### Main functions below
 ```golang
 func init() {
         registerCollector("grafanainfo", defaultEnabled, NewGrafanainfoCollector)
