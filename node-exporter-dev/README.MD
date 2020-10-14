@@ -1,6 +1,6 @@
 The node-exporter-demo just for add some metric to node-exporter 
->
-func init() {
+
+`func init() {
         registerCollector("grafanainfo", defaultEnabled, NewGrafanainfoCollector)
 }
 
@@ -26,5 +26,4 @@ func (c *grafanainfoCollector) Update(ch chan<- prometheus.Metric) error {
                 )
         }
         return nil
-}
-</p>
+}`
