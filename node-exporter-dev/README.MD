@@ -3,6 +3,9 @@ Node-exporter-dev
 
 ### How to dev yourself metrics in node-exporter
 * first you need clone [`node-exporter`](https://github.com/prometheus/node_exporter "git clone https://github.com/prometheus/node_exporter.git")
+* second you can start your writer
+
+##### Here is the code arc
 
 ![](./node-exporter.png)
 
