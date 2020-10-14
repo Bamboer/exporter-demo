@@ -1,13 +1,19 @@
-    func init() {
+[Node-exporter-dev]("test")
+================
+
+
+
+```golang
+func init() {
         registerCollector("grafanainfo", defaultEnabled, NewGrafanainfoCollector)
-    }
+}
 
-    func NewGrafanainfoCollector(logger log.Logger) (Collector, error) {
+func NewGrafanainfoCollector(logger log.Logger) (Collector, error) {
         return &grafanainfoCollector{logger}, nil
-  }
+}
 
 
-    func (c *grafanainfoCollector) Update(ch chan<- prometheus.Metric) error {
+func (c *grafanainfoCollector) Update(ch chan<- prometheus.Metric) error {
         grafanaInfo, err := c.getGrafanaInfo()
         if err != nil {
                 return fmt.Errorf("couldn't get grafanainfo: %w", err)
@@ -24,4 +30,5 @@
                 )
         }
         return nil
-    }
+}
+```
