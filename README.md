@@ -1,6 +1,6 @@
 exporter-demo
-
 =============
+
     func (g grafana) Describe(h chan<- *prometheus.Desc) {
         log.Info.Println("Describe function start...")
         for _, v := range g.admins {
