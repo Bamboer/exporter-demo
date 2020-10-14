@@ -12,13 +12,13 @@ func (g grafana) Describe(h chan<- *prometheus.Desc) {
         }
      }
 
-    func (g grafana) Collect(h chan<- prometheus.Metric) {
+func (g grafana) Collect(h chan<- prometheus.Metric) {
         if err := g.adminUpdate(h); err != nil {
                 log.Info.Println(err)
         }
     }
 
-    func (g grafana)adminUpdate(h chan<- prometheus.Metric) error {
+func (g grafana)adminUpdate(h chan<- prometheus.Metric) error {
         client, err := NewHTTPClient(g.uri, g.username, g.password)
         if err != nil {
                 log.Info.Println("Error happened: ", err)
