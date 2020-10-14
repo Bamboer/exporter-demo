@@ -31,4 +31,4 @@ exporter-demo
         return nil
     }
 
-The [`grafana`](https://grafana.com/docs/grafana/latest/http_api/admin/) admin api
+The [`grafana`](https://grafana.com/docs/grafana/latest/http_api/admin/ "Admin") Api
