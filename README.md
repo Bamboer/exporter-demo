@@ -1,7 +1,7 @@
 exporter-demo
 =============
 
-* The [`grafana`](https://grafana.com/docs/grafana/latest/http_api/admin/ "悬停显示")Admin Api 
+* The [`grafana`](https://grafana.com/docs/grafana/latest/http_api/admin/ "悬停显示 Hi grafana admin api ")Admin Api 
     * 使用的是admin api
         * 基于golang http pakcage
 # Main functions 
