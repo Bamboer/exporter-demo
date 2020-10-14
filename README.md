@@ -5,7 +5,8 @@ exporter-demo
     * 使用的是admin api
         * 基于golang http pakcage
 #### Main functions 
-        
+
+
 ```golang        
 func (g grafana) Describe(h chan<- *prometheus.Desc) {
         log.Info.Println("Describe function start...")
