@@ -1,6 +1,6 @@
 Node-exporter-dev
 ================
-![1](https://github.com/Bamboer/exporter-demo/edit/master/node-exporter-dev/node-export.png)
+![](https://github.com/Bamboer/exporter-demo/edit/master/node-exporter-dev/node-exporter.png)
 
 
 ```golang
