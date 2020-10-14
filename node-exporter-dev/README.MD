@@ -5,7 +5,7 @@ Node-exporter-dev
 * first you need clone [`node-exporter`](https://github.com/prometheus/node_exporter "git clone https://github.com/prometheus/node_exporter.git")
 * second you can start your writer
 
-##### Here is the code arc
+#### Here is the code image
 
 ![](./node-exporter.png)
 
