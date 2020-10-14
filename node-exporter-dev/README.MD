@@ -1,4 +1,5 @@
 The node-exporter-demo just for add some metric to node-exporter 
+<p>
 func init() {
         registerCollector("grafanainfo", defaultEnabled, NewGrafanainfoCollector)
 }
@@ -26,3 +27,4 @@ func (c *grafanainfoCollector) Update(ch chan<- prometheus.Metric) error {
         }
         return nil
 }
+</p>
