@@ -1,9 +1,12 @@
 Node-exporter-dev
 ================
 
+### How to dev yourself metrics in node-exporter
+* first you need clone [`node-exporter`](https://github.com/prometheus/node_exporter "git clone https://github.com/prometheus/node_exporter.git")
+
 ![](./node-exporter.png)
 
-### Main functions below
+##### Main functions below
 ```golang
 func init() {
         registerCollector("grafanainfo", defaultEnabled, NewGrafanainfoCollector)
