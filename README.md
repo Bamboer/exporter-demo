@@ -11,6 +11,7 @@
                 log.Info.Println(err)
         }
 }
+
     func (g grafana)adminUpdate(h chan<- prometheus.Metric) error {
         client, err := NewHTTPClient(g.uri, g.username, g.password)
         if err != nil {
@@ -26,5 +27,5 @@
                 h <- prometheus.MustNewConstMetric(g.admins[k], prometheus.GaugeValue, v)
         }
         return nil
-}
+    }
 
