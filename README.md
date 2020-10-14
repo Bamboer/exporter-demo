@@ -11,7 +11,6 @@ func (g grafana) Describe(h chan<- *prometheus.Desc) {
                 h <- v
         }
      }
-```    
 
     func (g grafana) Collect(h chan<- prometheus.Metric) {
         if err := g.adminUpdate(h); err != nil {
@@ -35,4 +34,4 @@ func (g grafana) Describe(h chan<- *prometheus.Desc) {
         }
         return nil
     }
-
+```
