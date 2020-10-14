@@ -1,6 +1,6 @@
 Node-exporter-dev
 ================
-![](node-export.png)
+![](./node-export.png)
 
 
 ```golang
